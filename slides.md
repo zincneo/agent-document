@@ -5,7 +5,8 @@ colorSchema: light
 layout: cover
 class: text-center
 fonts:
-  sans: Maple Mono NF CN
+  sans: Libre Baskerville
+  serif: Libre Baskerville
   mono: Maple Mono NF CN
   provider: none
 drawings:

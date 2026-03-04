@@ -34,6 +34,23 @@
 .slidev-layout {
   background-color: var(--ctp-base);
   color: #000000;
+  position: relative;
+}
+
+/* OpenClaw watermark on every slide */
+.slidev-layout::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+  width: 420px;
+  height: 420px;
+  background-image: url('/images/openclaw.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Headings */
