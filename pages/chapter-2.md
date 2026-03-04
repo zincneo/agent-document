@@ -84,7 +84,7 @@ transition: fade
 
 <div v-click class="text-4xl text-black/40">→</div>
 
-<div v-click class="px-8 py-6 rounded-xl bg-[var(--ctp-lavender)]/15 border-2 border-[var(--ctp-lavender)] text-center">
+<div v-click class="px-8 py-6 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.15);">
   <div class="text-4xl">🖥️</div>
   <div class="text-base font-semibold mt-2">Gateway</div>
   <div class="text-xs text-black/50 mt-1">本地控制平面</div>

@@ -65,7 +65,7 @@ transition: slide-up
   </div>
 </div>
 
-<div v-click class="flex items-center gap-3 p-3 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="flex items-center gap-3 p-3 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="w-20 shrink-0 text-right text-xs font-semibold text-[var(--ctp-lavender)]">2025 末</div>
   <div class="w-2 h-2 rounded-full bg-[var(--ctp-lavender)] shrink-0"></div>
   <div>
@@ -104,7 +104,7 @@ transition: slide-left
   </div>
 </div>
 
-<div v-click class="p-5 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="p-5 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="flex items-start gap-4">
     <div class="text-3xl shrink-0">📊</div>
     <div>
@@ -286,7 +286,7 @@ transition: fade-out
   </div>
 </div>
 
-<div v-click class="flex items-start gap-4 p-5 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="flex items-start gap-4 p-5 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-3xl shrink-0">🔗</div>
   <div>
     <div class="font-semibold text-base">探索"电力供应 + 数据中心运营 + AI API 服务"业务闭环</div>

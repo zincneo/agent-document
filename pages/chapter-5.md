@@ -29,7 +29,7 @@ transition: fade-out
 
 </div>
 
-<div v-click class="mt-10 mx-auto max-w-2xl p-5 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center">
+<div v-click class="mt-10 mx-auto max-w-2xl p-5 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-base leading-relaxed">Token 是 LLM 处理语言的基本单位（约 4 个英文字符 = 1 Token）<br/>每一次推理、记忆调取、工具调用、技能执行都在消耗 Token<br/><strong>Token = AI 时代的"电费"</strong></div>
 </div>
 
@@ -101,7 +101,7 @@ transition: slide-left
 
 <div class="flex-1">
 
-<div v-click class="p-4 mb-4 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="p-4 mb-4 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-sm text-black/70 leading-relaxed">当前全球最强 AI 编程与 Agent 能力。Claude Opus 4.6 断档式领先，官方 Claude Code CLI + Cowork 桌面端体验超越 OpenClaw。<strong>专业用户首选</strong>，实测 MAX $200 订阅的研发能力可持平大厂 50 万年薪程序员</div>
 </div>
 
@@ -158,7 +158,7 @@ transition: fade-out
 
 <div class="flex-1">
 
-<div v-click class="p-4 mb-4 rounded-xl bg-[var(--ctp-teal)]/10 border-2 border-[var(--ctp-teal)]">
+<div v-click class="p-4 mb-4 rounded-xl border-2 border-[var(--ctp-teal)]" style="background-color: rgba(23,146,153,0.1);">
   <div class="text-sm text-black/70 leading-relaxed">CodeX 5.3 相对便宜量大管饱。$20/月 Pro 会员一般足够正常开发需求和接入 OpenClaw 使用，是<strong>性价比最高的闭源方案</strong></div>
 </div>
 
@@ -288,7 +288,7 @@ transition: fade
 
 <v-click>
 
-<div class="w-56 p-6 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center">
+<div class="w-56 p-6 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-4xl mb-3">👑</div>
   <div class="font-semibold text-lg mb-2">追求极致能力</div>
   <div class="text-sm text-black/60">Claude Opus 4.6</div>
@@ -299,7 +299,7 @@ transition: fade
 
 <v-click>
 
-<div class="w-56 p-6 rounded-xl bg-[var(--ctp-teal)]/10 border-2 border-[var(--ctp-teal)] text-center">
+<div class="w-56 p-6 rounded-xl border-2 border-[var(--ctp-teal)] text-center" style="background-color: rgba(23,146,153,0.1);">
   <div class="text-4xl mb-3">⚖️</div>
   <div class="font-semibold text-lg mb-2">编程性价比</div>
   <div class="text-sm text-black/60">CodeX 5.3</div>
@@ -310,7 +310,7 @@ transition: fade
 
 <v-click>
 
-<div class="w-56 p-6 rounded-xl bg-[var(--ctp-peach)]/10 border-2 border-[var(--ctp-peach)] text-center">
+<div class="w-56 p-6 rounded-xl border-2 border-[var(--ctp-peach)] text-center" style="background-color: rgba(254,100,11,0.1);">
   <div class="text-4xl mb-3">🏠</div>
   <div class="font-semibold text-lg mb-2">低成本 + 本地部署</div>
   <div class="text-sm text-black/60">Qwen 3.5 / GLM-5</div>

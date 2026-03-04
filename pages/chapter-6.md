@@ -14,7 +14,7 @@ transition: fade-out
 
 <div v-click class="text-4xl text-black/30">vs</div>
 
-<div v-click class="w-64 p-6 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center">
+<div v-click class="w-64 p-6 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-4xl mb-3">🤖</div>
   <div class="font-semibold text-lg mb-2">自主 AI Agent</div>
   <div class="text-sm text-black/60">数十轮内部推理 + 工具调用<br/>Token 消耗呈几何级增长</div>
@@ -130,7 +130,7 @@ transition: fade-out
 
 <v-click>
 
-<div class="w-72 p-8 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center">
+<div class="w-72 p-8 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-5xl mb-4">👨‍💼</div>
   <div class="font-semibold text-xl mb-3">AI Agent</div>
   <div class="text-base text-black/60 leading-relaxed">像<strong>雇了一个 24h 在线的员工</strong></div>
@@ -196,7 +196,7 @@ transition: slide-up
 
 </div>
 
-<div v-click class="mt-3 p-3 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center text-xs leading-relaxed">
+<div v-click class="mt-3 p-3 rounded-xl border-2 border-[var(--ctp-lavender)] text-center text-xs leading-relaxed" style="background-color: rgba(114,135,253,0.1);">
   <strong>商业模式</strong>：行业数据微调开源大模型 → 本地化部署为垂直模型 → 以算力服务形式出售 Token 额度
 </div>
 

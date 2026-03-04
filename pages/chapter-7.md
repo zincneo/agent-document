@@ -24,7 +24,7 @@ transition: fade-out
 
 <div v-click class="text-4xl text-black/30">=</div>
 
-<div v-click class="w-64 p-6 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)] text-center">
+<div v-click class="w-64 p-6 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-4xl mb-3">⚡</div>
   <div class="font-semibold text-lg mb-2">天然互补</div>
   <div class="text-sm text-black/60">AI 算力需求恰好<br/>填平电力负荷曲线</div>
@@ -146,7 +146,7 @@ transition: fade
   </div>
 </div>
 
-<div v-click class="flex items-center gap-3 mb-6 p-4 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="flex items-center gap-3 mb-6 p-4 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-2xl shrink-0">🔋</div>
   <div>
     <div class="text-sm font-semibold">谷电时段不再"谷"</div>

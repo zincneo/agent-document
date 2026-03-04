@@ -326,7 +326,7 @@ transition: slide-up
   </div>
 </div>
 
-<div v-click class="flex items-start gap-3 p-5 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="flex items-start gap-3 p-5 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-3xl shrink-0">🎯</div>
   <div>
     <div class="font-semibold text-base">"Last 30 Days" 技能</div>
@@ -410,7 +410,7 @@ transition: slide-up
 
 <div class="flex gap-5">
 
-<div v-click class="w-44 p-5 rounded-xl border-2 border-[var(--ctp-lavender)] bg-[var(--ctp-lavender)]/10 text-center">
+<div v-click class="w-44 p-5 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-3xl mb-2">🧠</div>
   <div class="font-semibold text-base">主 Agent</div>
   <div class="text-xs text-black/60 mt-2 leading-relaxed">战略规划<br/>统一协调</div>
@@ -484,7 +484,7 @@ transition: fade
   </div>
 </div>
 
-<div v-click class="col-span-2 flex items-start gap-3 p-5 rounded-xl bg-[var(--ctp-lavender)]/10 border-2 border-[var(--ctp-lavender)]">
+<div v-click class="col-span-2 flex items-start gap-3 p-5 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
   <div class="text-2xl shrink-0">📑</div>
   <div>
     <div class="font-semibold text-base">投标文档辅助</div>
