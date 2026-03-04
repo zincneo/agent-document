@@ -43,3 +43,7 @@ src: ./pages/chapter-6.md
 ---
 src: ./pages/chapter-7.md
 ---
+
+---
+src: ./pages/chapter-8.md
+---
