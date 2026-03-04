@@ -1,6 +1,6 @@
 ---
 theme: default
-title: AI Agent与电力行业需求展望
+title: openclaw 思考
 colorSchema: light
 layout: cover
 class: text-center
@@ -14,28 +14,28 @@ drawings:
 transition: slide-left
 ---
 
-# AI Agent与电力行业需求展望
+# openclaw 思考
 
 ---
-src: ./pages/chapter-1.md
----
+
+## src: ./pages/chapter-1.md
 
 ---
-src: ./pages/chapter-2.md
----
+
+## src: ./pages/chapter-2.md
 
 ---
-src: ./pages/chapter-3.md
----
+
+## src: ./pages/chapter-3.md
 
 ---
-src: ./pages/chapter-4.md
----
+
+## src: ./pages/chapter-4.md
 
 ---
-src: ./pages/chapter-5.md
----
+
+## src: ./pages/chapter-5.md
 
 ---
-src: ./pages/chapter-6.md
----
+
+## src: ./pages/chapter-6.md
