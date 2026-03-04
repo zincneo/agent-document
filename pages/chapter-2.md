@@ -2,20 +2,24 @@
 transition: fade-out
 ---
 
-# 第二节：OpenClaw（龙虾）是什么
+# 什么是 OpenClaw（龙虾）
 
-<div class="flex items-center justify-center gap-12 mt-12">
+<div class="mt-16 flex flex-col items-center gap-8">
 
-<div v-click class="text-left max-w-sm">
-  <p class="text-lg leading-relaxed">
-    OpenClaw 是一个<strong>免费开源</strong>的自主 AI Agent，由奥地利开发者 <strong>Peter Steinberger</strong> 于 2025 年 11 月创建。
-  </p>
-  <p class="text-sm text-black/50 mt-4">
-    最初名为 Clawdbot → 因 Anthropic 商标投诉更名为 Moltbot → 最终定名 OpenClaw
-  </p>
+<div class="text-2xl leading-relaxed text-center max-w-2xl">
+  OpenClaw 是一个<strong>免费开源</strong>的 AI Agent（智能体）
 </div>
 
-<img v-click src="/images/openclaw.svg" class="h-40 rounded-xl" alt="OpenClaw" />
+<v-click>
+
+<div class="p-6 rounded-xl border-2 border-[var(--ctp-lavender)] max-w-xl text-center" style="background-color: rgba(114,135,253,0.1);">
+  <div class="font-semibold text-lg mb-3">什么是 Agent？</div>
+  <div class="text-base text-black/70 leading-relaxed">
+    能够<strong>听懂自然语言指令</strong>，自主规划步骤并<strong>付诸执行</strong>的 AI 助理<br/>不只是聊天，而是真正帮你<strong>干活</strong>
+  </div>
+</div>
+
+</v-click>
 
 </div>
 
@@ -23,46 +27,51 @@ transition: fade-out
 transition: slide-up
 ---
 
-## 产品定义
+## 它可以做什么？
 
-<div class="flex gap-10 mt-8 px-4">
+<div class="mt-8 px-6">
 
-<div class="flex-1">
+<div class="flex flex-col gap-6">
 
-<v-click>
-
-<div class="p-5 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)] mb-6">
-  <div class="font-semibold text-lg mb-2">自主执行的 AI Agent</div>
-  <div class="text-sm text-black/70 leading-relaxed">
-    能够自主执行指令、与应用程序交互并完成任务，<strong>无需持续人工监督</strong>。与传统聊天机器人只生成文本回复不同，它可以在用户自己的电脑或服务器上<strong>本地运行</strong>，连接外部工具和应用。
+<div v-click class="flex items-start gap-4 p-5 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)]">
+  <div class="text-3xl shrink-0">📁</div>
+  <div>
+    <div class="font-semibold text-lg mb-1">文档整理</div>
+    <div class="text-base text-black/70">"帮我把这个文件夹下所有照片重命名，从1开始编号"</div>
   </div>
 </div>
 
-</v-click>
-
-<v-click>
-
-<div class="p-5 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)]">
-  <div class="font-semibold text-lg mb-3">多平台消息交互</div>
-  <div class="flex flex-wrap gap-3 text-sm">
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">WhatsApp</span>
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">Telegram</span>
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">Slack</span>
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">Discord</span>
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">飞书</span>
-    <span class="px-3 py-1 rounded-full bg-[var(--ctp-surface0)]">更多...</span>
+<div v-click class="flex items-start gap-4 p-5 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)]">
+  <div class="text-3xl shrink-0">⏰</div>
+  <div>
+    <div class="font-semibold text-lg mb-1">定时任务</div>
+    <div class="text-base text-black/70">"帮我在明天早上9点发一封邮件给张总问好"</div>
   </div>
 </div>
 
-</v-click>
+<div v-click class="flex items-start gap-4 p-5 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)]">
+  <div class="text-3xl shrink-0">🔍</div>
+  <div>
+    <div class="font-semibold text-lg mb-1">信息检索</div>
+    <div class="text-base text-black/70">"帮我看一下马斯克最新一条推特讲了什么"</div>
+  </div>
+</div>
 
 </div>
 
-<div v-click class="flex flex-col items-center justify-center w-48">
-  <div class="text-6xl">🦞</div>
-  <div class="mt-3 text-center">
-    <div class="text-sm font-semibold">太空龙虾</div>
-    <div class="text-xs text-black/50">Space Lobster</div>
+</div>
+
+---
+transition: slide-left
+---
+
+## 一句话总结
+
+<div class="mt-20 flex justify-center">
+
+<div class="p-8 rounded-2xl border-2 border-[var(--ctp-lavender)] max-w-2xl text-center" style="background-color: rgba(114,135,253,0.1);">
+  <div class="text-3xl font-bold leading-relaxed">
+    一个可以听懂<strong>自然语言</strong>模糊需求<br/>并<strong>付诸执行</strong>的助理机器人
   </div>
 </div>
 
@@ -72,42 +81,23 @@ transition: slide-up
 transition: fade
 ---
 
-## 整体架构
+## 技能成长性
 
-<div class="mt-8 flex items-center justify-center gap-6">
+<div class="mt-10 px-6">
 
-<div v-click class="px-8 py-6 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)] text-center">
-  <div class="text-4xl">📱</div>
-  <div class="text-base font-semibold mt-2">消息平台</div>
-  <div class="text-xs text-black/50 mt-1">WhatsApp / Telegram / Slack ...</div>
+<div class="grid grid-cols-2 gap-8">
+
+<div v-click class="p-6 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)]">
+  <div class="text-4xl mb-3">🏪</div>
+  <div class="font-semibold text-lg mb-2">ClawHub 技能市场</div>
+  <div class="text-base text-black/70 leading-relaxed">社区提供数千个现成技能包，一键下载安装，即可扩展龙虾的能力边界</div>
 </div>
 
-<div v-click class="text-4xl text-black/40">→</div>
-
-<div v-click class="px-8 py-6 rounded-xl border-2 border-[var(--ctp-lavender)] text-center" style="background-color: rgba(114,135,253,0.15);">
-  <div class="text-4xl">🖥️</div>
-  <div class="text-base font-semibold mt-2">Gateway</div>
-  <div class="text-xs text-black/50 mt-1">本地控制平面</div>
+<div v-click class="p-6 rounded-xl border-2 border-[var(--ctp-lavender)]" style="background-color: rgba(114,135,253,0.1);">
+  <div class="text-4xl mb-3">🧠</div>
+  <div class="font-semibold text-lg mb-2">越用越聪明</div>
+  <div class="text-base text-black/70 leading-relaxed">曾经没做过的事情，手把手指导龙虾做一遍，它会记住整个流程，<strong>下次就能自己做</strong></div>
 </div>
-
-<div v-click class="text-4xl text-black/40">→</div>
-
-<div v-click class="flex flex-col gap-4">
-
-  <div class="px-8 py-4 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)] text-center">
-    <div class="text-2xl">🧠</div>
-    <div class="text-sm font-semibold mt-1">LLM API</div>
-  </div>
-
-  <div class="px-8 py-4 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)] text-center">
-    <div class="text-2xl">🧩</div>
-    <div class="text-sm font-semibold mt-1">Skills 技能</div>
-  </div>
-
-  <div class="px-8 py-4 rounded-xl bg-[var(--ctp-mantle)] border border-[var(--ctp-surface0)] text-center">
-    <div class="text-2xl">💾</div>
-    <div class="text-sm font-semibold mt-1">Memory 记忆</div>
-  </div>
 
 </div>
 
